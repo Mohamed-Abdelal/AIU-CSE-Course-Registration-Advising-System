@@ -1,0 +1,102 @@
+[
+  {
+    "code": "CSE234",
+    "name": "Embedded Systems",
+    "credits": 3,
+    "prerequisites": ["CSE132"],
+    "corequisites": [],
+    "semester_offered": ["Fall"],
+    "description": "Design and programming of embedded hardware/software systems",
+    "track": ["Big Data", "AI Engineering"]
+  },
+  {
+    "code": "CSE281",
+    "name": "Image Processing",
+    "credits": 3,
+    "prerequisites": ["MATH231"],
+    "corequisites": [],
+    "semester_offered": ["Spring"],
+    "description": "Digital image manipulation and analysis techniques"
+  },
+  {
+    "code": "CSE312",
+    "name": "Advanced Web Programming",
+    "credits": 3,
+    "prerequisites": ["CSE211"],
+    "corequisites": [],
+    "semester_offered": ["Fall"],
+    "description": "Modern full-stack web development frameworks"
+  },
+  {
+    "code": "CSE446",
+    "name": "Information & Computer Networks Security",
+    "credits": 3,
+    "prerequisites": ["CSE344"],
+    "corequisites": [],
+    "semester_offered": ["Spring"],
+    "description": "Network security protocols and cyber defense mechanisms"
+  },
+  {
+    "code": "CSE454",
+    "name": "Advanced Software Engineering",
+    "credits": 3,
+    "prerequisites": ["CSE352"],
+    "corequisites": [],
+    "semester_offered": ["Fall"],
+    "description": "Enterprise-scale software architecture and design patterns"
+  },
+  {
+    "code": "CSE383",
+    "name": "Computer Vision",
+    "credits": 3,
+    "prerequisites": ["MATH231", "CSE211"],
+    "corequisites": [],
+    "semester_offered": ["Spring"],
+    "description": "Image recognition and machine vision algorithms"
+  },
+  {
+    "code": "AIE241",
+    "name": "Natural Language Processing",
+    "credits": 3,
+    "prerequisites": ["AIE121"],
+    "corequisites": [],
+    "semester_offered": ["Fall"],
+    "description": "Text processing and linguistic modeling techniques"
+  },
+  {
+    "code": "CSE424",
+    "name": "Data Warehousing",
+    "credits": 3,
+    "prerequisites": ["CSE323"],
+    "corequisites": [],
+    "semester_offered": ["Spring"],
+    "description": "Design and implementation of data warehouses"
+  },
+  {
+    "code": "AIE343",
+    "name": "Machine Learning for Text Mining",
+    "credits": 3,
+    "prerequisites": ["AIE241"],
+    "corequisites": [],
+    "semester_offered": ["Fall"],
+    "description": "NLP techniques for unstructured data analysis"
+  },
+  {
+    "code": "CSE425",
+    "name": "Big Data Analytics 2",
+    "credits": 3,
+    "prerequisites": ["CSE322"],
+    "corequisites": [],
+    "semester_offered": ["Spring"],
+    "description": "Advanced techniques for large-scale data processing"
+  },
+  {
+    "code": "AIE342",
+    "name": "Advanced Methods for Data Analysis",
+    "credits": 3,
+    "prerequisites": ["AIE323"],
+    "corequisites": [],
+    "semester_offered": ["Fall"],
+    "description": "Statistical modeling and feature engineering"
+  }
+]

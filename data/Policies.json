@@ -1,0 +1,23 @@
+{
+    "credit_limits": [
+      {
+        "cgpa_min": 0.0,
+        "cgpa_max": 2.0,
+        "exclusive_max": true,
+        "max_credits": 12
+      },
+      {
+        "cgpa_min": 2.0,
+        "cgpa_max": 3.0,
+        "exclusive_max": true,
+        "max_credits": 15
+      },
+      {
+        "cgpa_min": 3.0,
+        "cgpa_max": 4.0,
+        "exclusive_max": false,
+        "max_credits": 18
+      }
+    ],
+    "retake_priority": true
+  }

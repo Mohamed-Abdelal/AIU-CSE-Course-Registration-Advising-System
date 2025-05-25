@@ -1,0 +1,72 @@
+[
+    {
+      "code": "LAN011",
+      "name": "Arabic Language",
+      "credits": 2,
+      "semester_offered": ["Fall", "Spring"],
+      "description": "Modern Standard Arabic communication skills",
+      "type": "university_compulsory",
+      "category": "language",
+      "prerequisites": []
+    },
+    {
+      "code": "LAN114",
+      "name": "Literary Appreciation",
+      "credits": 2,
+      "semester_offered": ["Spring"],
+      "description": "Critical analysis of literary texts",
+      "type": "university_compulsory",
+      "category": "humanities",
+      "prerequisites": []
+    },
+    {
+      "code": "MGT301",
+      "name": "Entrepreneurship and Innovation",
+      "credits": 2,
+      "semester_offered": ["Fall"],
+      "description": "Principles of business innovation and startup development",
+      "type": "university_compulsory",
+      "category": "business",
+      "prerequisites": ["Completion of 60 credits"]
+    },
+    {
+      "code": "LAN112",
+      "name": "Critical Thinking",
+      "credits": 2,
+      "semester_offered": ["Fall", "Spring"],
+      "description": "Logical reasoning and argument analysis",
+      "type": "university_compulsory",
+      "category": "skills",
+      "prerequisites": []
+    },
+    {
+      "code": "GEO217",
+      "name": "Climate Change and Sustainability",
+      "credits": 2,
+      "semester_offered": ["Spring"],
+      "description": "Global environmental challenges and sustainable solutions",
+      "type": "university_compulsory",
+      "category": "science",
+      "prerequisites": []
+    },
+    {
+      "code": "PSC101",
+      "name": "Introduction to Law and Human Rights",
+      "credits": 2,
+      "semester_offered": ["Fall"],
+      "description": "Fundamentals of legal systems and human rights principles",
+      "type": "university_compulsory",
+      "category": "law",
+      "prerequisites": []
+    },
+    {
+      "code": "LIB116",
+      "name": "Research and Analysis Skills",
+      "credits": 2,
+      "semester_offered": ["Spring"],
+      "description": "Academic research methodologies and information literacy",
+      "type": "university_compulsory",
+      "category": "skills",
+      "prerequisites": []
+    }
+  ]

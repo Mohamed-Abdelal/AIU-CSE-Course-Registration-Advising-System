@@ -1,0 +1,29 @@
+[
+    {
+      "code": "LAN021",
+      "name": "English Language 0",
+      "credits": 0,
+      "grading": "Pass/Fail",
+      "semester_offered": ["Fall", "Spring"],
+      "description": "Basic English proficiency course",
+      "type": "university_compulsory"
+    },
+    {
+      "code": "LAN022",
+      "name": "English Language 1",
+      "credits": 0,
+      "grading": "Pass/Fail",
+      "semester_offered": ["Fall", "Spring"],
+      "description": "Intermediate English proficiency",
+      "type": "university_compulsory"
+    },
+    {
+      "code": "CSE011",
+      "name": "Computer Skills",
+      "credits": 0,
+      "grading": "Pass/Fail",
+      "semester_offered": ["Fall", "Spring"],
+      "description": "Fundamental digital literacy",
+      "type": "university_compulsory"
+    }
+  ]

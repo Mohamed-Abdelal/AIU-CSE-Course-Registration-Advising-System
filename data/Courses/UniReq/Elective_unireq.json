@@ -1,0 +1,172 @@
+[
+  {
+    "code": "PSC102",
+    "name": "Principles of International Law",
+    "credits": 2,
+    "semester_offered": ["Fall"],
+    "description": "Foundations of global legal systems"
+  },
+  {
+    "code": "PSC111",
+    "name": "Introduction to Political Sciences",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Basic concepts in political science"
+  },
+  {
+    "code": "MGT101",
+    "name": "Introduction to Management",
+    "credits": 2,
+    "semester_offered": ["Fall", "Spring"],
+    "description": "Management theories and practices"
+  },
+  {
+    "code": "ACC101",
+    "name": "Introduction to Accounting",
+    "credits": 2,
+    "semester_offered": ["Fall"],
+    "description": "Fundamentals of financial accounting"
+  },
+  {
+    "code": "ECO205",
+    "name": "Fundamentals of Economics",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Micro and macroeconomic principles"
+  },
+  {
+    "code": "MGT102",
+    "name": "Strategic Planning",
+    "credits": 2,
+    "semester_offered": ["Fall"],
+    "prerequisites": ["MGT101"],
+    "description": "Business strategy development"
+  },
+  {
+    "code": "LAN111",
+    "name": "English Language 2",
+    "credits": 2,
+    "semester_offered": ["Fall", "Spring"],
+    "prerequisites": ["LAN022"],
+    "description": "Advanced English communication"
+  },
+  {
+    "code": "MEC013",
+    "name": "Technical Report Writing",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Professional writing for engineers"
+  },
+  {
+    "code": "LAN120",
+    "name": "German Language",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Beginner German proficiency"
+  },
+  {
+    "code": "LAN130",
+    "name": "French Language",
+    "credits": 2,
+    "semester_offered": ["Fall"],
+    "description": "Beginner French proficiency"
+  },
+  {
+    "code": "LAN140",
+    "name": "Chinese Language",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Beginner Mandarin Chinese"
+  },
+  {
+    "code": "LAN150",
+    "name": "Ancient Egyptian Language",
+    "credits": 2,
+    "semester_offered": ["Fall"],
+    "description": "Hieroglyphic writing system basics"
+  },
+  {
+    "code": "DVA014",
+    "name": "Introduction to the Arts",
+    "credits": 2,
+    "semester_offered": ["Fall", "Spring"],
+    "description": "Survey of visual and performing arts"
+  },
+  {
+    "code": "LAN113",
+    "name": "Egyptian Literary Heritage",
+    "credits": 2,
+    "semester_offered": ["Fall"],
+    "description": "Classical Egyptian literature"
+  },
+  {
+    "code": "PYS103",
+    "name": "Principles of Psychology",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Introduction to human behavior"
+  },
+  {
+    "code": "SOC216",
+    "name": "Principles of Statistics",
+    "credits": 2,
+    "semester_offered": ["Fall"],
+    "description": "Basic statistical methods"
+  },
+  {
+    "code": "ADL123",
+    "name": "First Aid",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Emergency medical training"
+  },
+  {
+    "code": "HNU110",
+    "name": "Human Nutrition",
+    "credits": 2,
+    "semester_offered": ["Fall"],
+    "description": "Fundamentals of dietary science"
+  },
+  {
+    "code": "HIS111",
+    "name": "Introduction to the History of Civilizations",
+    "credits": 2,
+    "semester_offered": ["Fall", "Spring"],
+    "description": "Comparative world civilizations"
+  },
+  {
+    "code": "ARC010",
+    "name": "Introduction to History of Art & Architecture",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Evolution of artistic styles"
+  },
+  {
+    "code": "PSE207",
+    "name": "Contemporary International Issues",
+    "credits": 2,
+    "semester_offered": ["Fall"],
+    "description": "Analysis of global challenges"
+  },
+  {
+    "code": "GEO216",
+    "name": "Geography of Egypt and Middle East",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Regional geographical studies"
+  },
+  {
+    "code": "CSE013",
+    "name": "Introduction to IT",
+    "credits": 2,
+    "semester_offered": ["Fall", "Spring"],
+    "description": "Overview of information technology"
+  },
+  {
+    "code": "MEC014",
+    "name": "History of Science",
+    "credits": 2,
+    "semester_offered": ["Spring"],
+    "description": "Evolution of engineering and technology"
+  }
+]

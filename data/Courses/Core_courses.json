@@ -1,0 +1,235 @@
+[
+    {
+      "code": "MAT111",
+      "name": "Mathematics I",
+      "credits": 3,
+      "prerequisites": [],
+      "semester_offered": ["Fall"],
+      "description": "Calculus and analytical geometry fundamentals"
+    },
+    {
+      "code": "PHY211",
+      "name": "Physics II",
+      "credits": 3,
+      "prerequisites": [],
+      "semester_offered": ["Spring"],
+      "description": "Electricity, magnetism, and modern physics"
+    },
+    {
+      "code": "CSE014",
+      "name": "Structured Programming",
+      "credits": 3,
+      "prerequisites": [],
+      "semester_offered": ["Fall"],
+      "description": "Programming fundamentals using C"
+    },
+    {
+      "code": "MAT112",
+      "name": "Mathematics II",
+      "credits": 3,
+      "prerequisites": ["MAT111"],
+      "semester_offered": ["Spring"],
+      "description": "Multivariable calculus and series"
+    },
+    {
+      "code": "MAT131",
+      "name": "Probability & Statistics I",
+      "credits": 3,
+      "prerequisites": [],
+      "semester_offered": ["Fall"],
+      "description": "Basic probability theory and descriptive statistics"
+    },
+    {
+      "code": "CSE015",
+      "name": "Object Oriented Programming",
+      "credits": 3,
+      "prerequisites": ["CSE014"],
+      "semester_offered": ["Spring"],
+      "description": "OOP concepts using Java/C++"
+    },
+    {
+      "code": "CSE315",
+      "name": "Discrete Mathematics",
+      "credits": 3,
+      "prerequisites": [],
+      "semester_offered": ["Fall"],
+      "description": "Logic, sets, relations, and graph theory"
+    },
+    {
+      "code": "MAT212",
+      "name": "Linear Algebra",
+      "credits": 3,
+      "prerequisites": [],
+      "semester_offered": ["Spring"],
+      "description": "Vector spaces and matrix operations"
+    },
+    {
+      "code": "MAT231",
+      "name": "Probability & Statistics II",
+      "credits": 3,
+      "prerequisites": ["MAT131"],
+      "semester_offered": ["Fall"],
+      "description": "Statistical inference and regression"
+    },
+    {
+      "code": "CSE111",
+      "name": "Data Structures",
+      "credits": 3,
+      "prerequisites": ["CSE015"],
+      "semester_offered": ["Spring"],
+      "description": "Linear and non-linear data structures"
+    },
+    {
+      "code": "CSE131",
+      "name": "Logic Design",
+      "credits": 3,
+      "prerequisites": [],
+      "semester_offered": ["Fall"],
+      "description": "Digital circuits and Boolean algebra"
+    },
+    {
+      "code": "AIE111",
+      "name": "Artificial Intelligence",
+      "credits": 3,
+      "prerequisites": ["CSE015"],
+      "semester_offered": ["Spring"],
+      "description": "Foundations of AI and problem solving"
+    },
+    {
+      "code": "MAT312",
+      "name": "Differential Equations",
+      "credits": 3,
+      "prerequisites": ["MAT112"],
+      "semester_offered": ["Fall"],
+      "description": "Ordinary and partial differential equations"
+    },
+    {
+      "code": "CSE132",
+      "name": "Computer Architecture & Organization",
+      "credits": 3,
+      "prerequisites": ["CSE131"],
+      "semester_offered": ["Spring"],
+      "description": "CPU design and memory hierarchy"
+    },
+    {
+      "code": "CSE211",
+      "name": "Web Programming",
+      "credits": 3,
+      "prerequisites": ["CSE015"],
+      "semester_offered": ["Fall"],
+      "description": "Front-end development with HTML/CSS/JS"
+    },
+    {
+      "code": "CSE221",
+      "name": "Database Systems",
+      "credits": 3,
+      "prerequisites": ["CSE111"],
+      "semester_offered": ["Spring"],
+      "description": "Relational databases and SQL"
+    },
+    {
+      "code": "CSE251",
+      "name": "Software Engineering",
+      "credits": 3,
+      "prerequisites": ["CSE015"],
+      "semester_offered": ["Fall"],
+      "description": "Software development lifecycle"
+    },
+    {
+      "code": "CSE233",
+      "name": "Operating Systems",
+      "credits": 3,
+      "prerequisites": ["CSE111"],
+      "semester_offered": ["Spring"],
+      "description": "Process management and file systems"
+    },
+    {
+      "code": "CSE261",
+      "name": "Computer Networks",
+      "credits": 3,
+      "prerequisites": ["CSE132"],
+      "semester_offered": ["Fall"],
+      "description": "Network protocols and architectures"
+    },
+    {
+      "code": "AIE121",
+      "name": "Machine Learning",
+      "credits": 3,
+      "prerequisites": ["AIE111"],
+      "semester_offered": ["Spring"],
+      "description": "Supervised and unsupervised learning"
+    },
+    {
+      "code": "CSE352",
+      "name": "Systems Analysis & Design",
+      "credits": 3,
+      "prerequisites": ["CSE251"],
+      "semester_offered": ["Fall"],
+      "description": "UML modeling and requirements engineering"
+    },
+    {
+      "code": "CSE112",
+      "name": "Algorithms",
+      "credits": 4,
+      "prerequisites": ["CSE111"],
+      "semester_offered": ["Spring"],
+      "description": "Design and analysis of algorithms",
+      "note": "Only 4-credit core course"
+    },
+    {
+      "code": "CSE363",
+      "name": "Cloud Computing",
+      "credits": 3,
+      "prerequisites": ["CSE261"],
+      "semester_offered": ["Fall"],
+      "description": "Cloud service models and virtualization"
+    },
+    {
+      "code": "CSE373",
+      "name": "Parallel Programming",
+      "credits": 3,
+      "prerequisites": ["CSE211"],
+      "semester_offered": ["Spring"],
+      "description": "Multithreading and GPU programming"
+    },
+    {
+      "code": "CSE271",
+      "name": "Introduction to Parallel Computing",
+      "credits": 3,
+      "prerequisites": ["CSE112"],
+      "semester_offered": ["Fall"],
+      "description": "Distributed algorithms and architectures"
+    },
+    {
+      "code": "CSE322",
+      "name": "Big Data Analytics 1",
+      "credits": 3,
+      "prerequisites": ["AIE121"],
+      "semester_offered": ["Spring"],
+      "description": "Hadoop/Spark ecosystems and MapReduce"
+    },
+    {
+      "code": "AIE323",
+      "name": "Data Mining",
+      "credits": 3,
+      "prerequisites": ["AIE121"],
+      "semester_offered": ["Fall"],
+      "description": "Pattern discovery in large datasets"
+    },
+    {
+      "code": "CSE411",
+      "name": "Theory of Computation & Compilers",
+      "credits": 3,
+      "prerequisites": ["CSE014"],
+      "semester_offered": ["Spring"],
+      "description": "Formal languages and parsing techniques"
+    },
+    {
+      "code": "CSE427",
+      "name": "Selected Topics in Big Data",
+      "credits": 3,
+      "prerequisites": ["CSE322"],
+      "semester_offered": ["Fall"],
+      "description": "Advanced distributed data processing"
+    }
+  ]

@@ -1,0 +1,341 @@
+{
+    "level_1": {
+      "fall": {
+        "courses": [
+          {
+            "code": "MAT111",
+            "type": "core",
+            "credits": 3
+          },
+          {
+            "code": "PHY211",
+            "type": "core",
+            "credits": 3
+          },
+          {
+            "code": "CSE014",
+            "type": "core",
+            "credits": 3
+          },
+          {
+            "code": "UC1",
+            "type": "university_compulsory",
+            "credits": 2,
+            "description": "University Requirement 1"
+          },
+          {
+            "code": "UC2",
+            "type": "university_compulsory",
+            "credits": 2,
+            "description": "University Requirement 2"
+          },
+          {
+            "code": "UE1",
+            "type": "university_elective",
+            "credits": 2,
+            "description": "Elective University Course 1"
+          }
+        ],
+        "total_credits": 15
+      },
+      "spring": {
+        "courses": [
+          {
+            "code": "MAT112",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["MAT111"]
+          },
+          {
+            "code": "MAT131",
+            "type": "core",
+            "credits": 3
+          },
+          {
+            "code": "CSE015",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE014"]
+          },
+          {
+            "code": "CSE315",
+            "type": "core",
+            "credits": 3
+          },
+          {
+            "code": "UC3",
+            "type": "university_compulsory",
+            "credits": 2,
+            "description": "University Requirement 3"
+          },
+          {
+            "code": "UE2",
+            "type": "university_elective",
+            "credits": 2,
+            "description": "Elective University Course 2"
+          }
+        ],
+        "total_credits": 16
+      }
+    },
+    "level_2": {
+      "fall": {
+        "courses": [
+          {
+            "code": "MAT212",
+            "type": "core",
+            "credits": 3
+          },
+          {
+            "code": "MAT231",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["MAT131"]
+          },
+          {
+            "code": "CSE111",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE015"]
+          },
+          {
+            "code": "CSE131",
+            "type": "core",
+            "credits": 3
+          },
+          {
+            "code": "AIE111",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE015"]
+          },
+          {
+            "code": "UC4",
+            "type": "university_compulsory",
+            "credits": 2,
+            "description": "University Requirement 4"
+          }
+        ],
+        "total_credits": 17
+      },
+      "spring": {
+        "courses": [
+          {
+            "code": "MAT312",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["MAT112"]
+          },
+          {
+            "code": "CSE132",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE131"]
+          },
+          {
+            "code": "CSE211",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE015"]
+          },
+          {
+            "code": "CSE221",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE111"]
+          },
+          {
+            "code": "CSE191",
+            "type": "field_training",
+            "credits": 1,
+            "description": "Field Training 1"
+          },
+          {
+            "code": "CSE251",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE015"]
+          }
+        ],
+        "total_credits": 16
+      }
+    },
+    "level_3": {
+      "fall": {
+        "courses": [
+          {
+            "code": "CSE233",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE111"]
+          },
+          {
+            "code": "E1",
+            "type": "track_elective",
+            "credits": 3,
+            "description": "Elective Course 1"
+          },
+          {
+            "code": "CSE261",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE132"]
+          },
+          {
+            "code": "AIE121",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["AIE111"]
+          },
+          {
+            "code": "CSE352",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE251"]
+          },
+          {
+            "code": "UC5",
+            "type": "university_compulsory",
+            "credits": 2,
+            "description": "University Requirement 5"
+          }
+        ],
+        "total_credits": 17
+      },
+      "spring": {
+        "courses": [
+          {
+            "code": "CSE112",
+            "type": "core",
+            "credits": 4,
+            "prerequisites": ["CSE111"],
+            "note": "Only 4-credit core course"
+          },
+          {
+            "code": "E2",
+            "type": "track_elective",
+            "credits": 3,
+            "description": "Elective Course 2"
+          },
+          {
+            "code": "CSE363",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE261"]
+          },
+          {
+            "code": "CSE373",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE211"]
+          },
+          {
+            "code": "CSE292",
+            "type": "field_training",
+            "credits": 1,
+            "prerequisites": ["CSE191"],
+            "description": "Field Training 2"
+          },
+          {
+            "code": "UC6",
+            "type": "university_compulsory",
+            "credits": 2,
+            "description": "University Requirement 6"
+          }
+        ],
+        "total_credits": 16
+      }
+    },
+    "level_4": {
+      "fall": {
+        "courses": [
+          {
+            "code": "CSE271",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE112"]
+          },
+          {
+            "code": "CSE322",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["AIE121"]
+          },
+          {
+            "code": "AIE323",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["AIE121"]
+          },
+          {
+            "code": "CSE493",
+            "type": "graduation_project",
+            "credits": 3,
+            "prerequisites": ["Completion of 90 credits"],
+            "description": "Graduation Project 1"
+          },
+          {
+            "code": "E3",
+            "type": "track_elective",
+            "credits": 3,
+            "description": "Elective Course 3"
+          },
+          {
+            "code": "UC7",
+            "type": "university_compulsory",
+            "credits": 2,
+            "description": "University Requirement 7"
+          }
+        ],
+        "total_credits": 17
+      },
+      "spring": {
+        "courses": [
+          {
+            "code": "CSE411",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE014"]
+          },
+          {
+            "code": "CSE427",
+            "type": "core",
+            "credits": 3,
+            "prerequisites": ["CSE322"]
+          },
+          {
+            "code": "CSE494",
+            "type": "graduation_project",
+            "credits": 3,
+            "prerequisites": ["CSE493"],
+            "description": "Graduation Project 2"
+          },
+          {
+            "code": "E4",
+            "type": "track_elective",
+            "credits": 3,
+            "description": "Elective Course 4"
+          },
+          {
+            "code": "E5",
+            "type": "track_elective",
+            "credits": 3,
+            "description": "Elective Course 5"
+          },
+          {
+            "code": "UE3",
+            "type": "university_elective",
+            "credits": 2,
+            "description": "Elective University Course 3"
+          }
+        ],
+        "total_credits": 17
+      }
+    },
+    "metadata": {
+      "total_credits": 127,
+      "core_credits": 85,
+      "university_credits": 14,
+      "elective_credits": 28
+    }
+  }

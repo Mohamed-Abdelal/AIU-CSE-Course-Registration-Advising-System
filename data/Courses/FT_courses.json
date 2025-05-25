@@ -1,0 +1,20 @@
+[
+    {
+      "code": "CSE191",
+      "name": "Field Training 1",
+      "credits": 2,
+      "semester_offered": ["Summer"],
+      "description": "ITI JDBC",
+      "type": "field_training",
+      "prerequisites": ["CSE014", "CSE015"]
+    },
+    {
+      "code": "CSE292",
+      "name": "Field Training 2",
+      "credits": 2,
+      "semester_offered": ["Summer"],
+      "description": "Advanced industry internship with project deliverables",
+      "type": "field_training",
+      "prerequisites": ["CSE191"]
+    }
+  ]

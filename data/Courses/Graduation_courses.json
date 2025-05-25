@@ -1,0 +1,22 @@
+[
+    {
+      "code": "CSE493",
+      "name": "Graduation Project 1",
+      "credits": 3,
+      "semester_offered": ["Fall"],
+      "description": "Initial capstone project phase with proposal and literature review",
+      "type": "graduation_project",
+      "prerequisites": ["Completion of 90 credits"],
+      "phase": 1
+    },
+    {
+      "code": "CSE494",
+      "name": "Graduation Project 2",
+      "credits": 3,
+      "semester_offered": ["Spring"],
+      "description": "Final project implementation and defense",
+      "type": "graduation_project",
+      "prerequisites": ["CSE493"],
+      "phase": 2
+    }
+  ]
